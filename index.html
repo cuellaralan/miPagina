@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+	<script type="text/javascript" src="js/funciones.js"></script>
+	<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+</head>
+<body>
+
+	<div class="CajaUno">
+	
+		<nav>
+			<li><a onclick="CargarInput('admin','admin@admin.com','321')" class="MiBotonUTN">admin</a></li>
+			<li><a onclick="CargarInput('comprador','comp@comp.com','123')" class="MiBotonUTN">comprador</a></li>
+			<li><a onclick="CargarInput('vend','vend@vend.com','321')" class="MiBotonUTN">vendedor</a></li>
+			
+
+		</nav>
+		<br>
+
+		<form>
+			<input type="text" name="texto" id="nombre" name="nombre">
+			<input type="text" name="texto" id="correo" name="correo">
+			<input type="text" name="texto" id="clave" name="clave">
+
+			<input type="submit" name="ingresar" value="ingresar" id="ingresar" class="MiBotonUTN">
+		</form>
+
+
+
+	</div>
+
+	<div class="CajaAbajo" id="caja">
+		
+
+	</div>
+
+	<div id="informe" class="CajaEnunciado"></div>
+
+
+
+
+</body>
+</html>
